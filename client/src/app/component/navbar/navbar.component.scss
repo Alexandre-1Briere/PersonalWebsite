@@ -1,0 +1,8 @@
+@import "../../style-constant/size.scss";
+@import "../../style-constant/color.scss";
+
+#container {
+  width: $menuWidth;
+  background: $menuColor;
+  height: $menuHeight;
+}
