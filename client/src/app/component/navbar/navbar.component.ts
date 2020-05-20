@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {MenuItem} from '../../interface/menu-item';
+import {menuFR} from '../../component-constant/menu.constant';
 
 @Component({
   selector: 'app-navbar',
@@ -9,7 +10,7 @@ import {MenuItem} from '../../interface/menu-item';
 export class NavbarComponent implements OnInit {
   itemList: MenuItem[];
   constructor() {
-    this.itemList = [];
+    this.itemList = menuFR;
   }
 
   ngOnInit() {
